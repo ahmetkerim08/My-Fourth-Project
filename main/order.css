@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-image: url(resim.copy.png);
+    background-color: darkslategrey;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-right: 150px;
+    padding-left: 90px;
+    opacity: 0.8;
+    position: sticky;
+    top: 20px;
+    
+
+}
+
+
+.logo img {
+    width: 100px;
+    height: 90px;
+
+}
+
+.links a {
+    padding: 20px;
+    color: black;
+    transition: 1s all ease;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+    font-size: 10px;
+    font-style: italic;
+    background-color: crimson;
+    border-radius: 30px;
+}
+
+.page h1 {
+    color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 100px;
+
+}
+
+#flavor {
+    margin-left: 220px;
+}
+
+.order {
+    background-color: crimson;
+    border: none;
+    width: 190px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    transition: 2s all ease;
+}
+
+.order a {
+    color: black;
+
+}
+
+.order a:hover {
+    color: white;
+}
+
+.order:hover {
+
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 500px;
+    row-gap: 300px;
+}
+    
+.box1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+   
+       
+
+}
+
+.box1 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  
+}
+.box1 p{
+    color: white;
+    font-size: 50px;
+}
+#span{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box1 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box1 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box1 button:hover{
+    background-color: white;
+}
+
+
+
+    
+    
+
+       
+
+
+.box2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.box2 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box2 p{
+    color: white;
+    font-size: 50px;
+   
+}
+#span2{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box2 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box2 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box2 button:hover{
+    background-color: white;
+}
+
+
+
+
+
+.box3 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.box3 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box3 p{
+    color: white;
+    font-size: 50px;
+}
+#span3{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box3 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box3 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box3 button:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.box4{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.box4 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box4 p{
+    color: white;
+    font-size: 50px;
+}
+#span4{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box4 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box4 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box4 button:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+.box5 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.box5 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box5 p{
+    color: white;
+    font-size: 50px;
+}
+#span5{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box5 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box5 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box5 button:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box6 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.box6 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box6 p{
+    color: white;
+    font-size: 50px;
+}
+#span6{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.box6 button{
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border: none;
+    border-radius: 80px;
+    margin-left:40px;
+    margin-top: 50px;
+    transition: 0.5s background-color ease;
+}
+.box6 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.box6 button:hover{
+    background-color: white;
+}
+
+
